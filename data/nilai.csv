@@ -1,0 +1,361 @@
+nim,nama,prodi,angkatan,semester,mata_kuliah,nilai
+2205001,Ani,PTI,2022,1,Algoritma,82
+2205001,Ani,PTI,2022,1,Pengantar TI,76
+2205001,Ani,PTI,2022,2,Basis Data,77
+2205001,Ani,PTI,2022,2,Struktur Data,73
+2205001,Ani,PTI,2022,3,Aplikasi Web,80
+2205001,Ani,PTI,2022,3,Jaringan Komputer,89
+2205001,Ani,PTI,2022,4,Rekayasa Perangkat Lunak,86
+2205001,Ani,PTI,2022,4,Kecerdasan Buatan,90
+2205002,Budi,PTI,2022,1,Algoritma,84
+2205002,Budi,PTI,2022,1,Pengantar TI,82
+2205002,Budi,PTI,2022,2,Basis Data,71
+2205002,Budi,PTI,2022,2,Struktur Data,89
+2205002,Budi,PTI,2022,3,Aplikasi Web,88
+2205002,Budi,PTI,2022,3,Jaringan Komputer,88
+2205002,Budi,PTI,2022,4,Rekayasa Perangkat Lunak,74
+2205002,Budi,PTI,2022,4,Kecerdasan Buatan,74
+2205003,Citra,PTI,2022,1,Algoritma,71
+2205003,Citra,PTI,2022,1,Pengantar TI,76
+2205003,Citra,PTI,2022,2,Basis Data,76
+2205003,Citra,PTI,2022,2,Struktur Data,80
+2205003,Citra,PTI,2022,3,Aplikasi Web,73
+2205003,Citra,PTI,2022,3,Jaringan Komputer,80
+2205003,Citra,PTI,2022,4,Rekayasa Perangkat Lunak,82
+2205003,Citra,PTI,2022,4,Kecerdasan Buatan,74
+2205004,Dewi,PTI,2022,1,Algoritma,94
+2205004,Dewi,PTI,2022,1,Pengantar TI,98
+2205004,Dewi,PTI,2022,2,Basis Data,87
+2205004,Dewi,PTI,2022,2,Struktur Data,86
+2205004,Dewi,PTI,2022,3,Aplikasi Web,91
+2205004,Dewi,PTI,2022,3,Jaringan Komputer,92
+2205004,Dewi,PTI,2022,4,Rekayasa Perangkat Lunak,99
+2205004,Dewi,PTI,2022,4,Kecerdasan Buatan,96
+2205005,Eko,PTI,2022,1,Algoritma,70
+2205005,Eko,PTI,2022,1,Pengantar TI,73
+2205005,Eko,PTI,2022,2,Basis Data,87
+2205005,Eko,PTI,2022,2,Struktur Data,73
+2205005,Eko,PTI,2022,3,Aplikasi Web,82
+2205005,Eko,PTI,2022,3,Jaringan Komputer,83
+2205005,Eko,PTI,2022,4,Rekayasa Perangkat Lunak,71
+2205005,Eko,PTI,2022,4,Kecerdasan Buatan,82
+2205006,Fajar,PTI,2022,1,Algoritma,73
+2205006,Fajar,PTI,2022,1,Pengantar TI,85
+2205006,Fajar,PTI,2022,2,Basis Data,88
+2205006,Fajar,PTI,2022,2,Struktur Data,83
+2205006,Fajar,PTI,2022,3,Aplikasi Web,94
+2205006,Fajar,PTI,2022,3,Jaringan Komputer,90
+2205006,Fajar,PTI,2022,4,Rekayasa Perangkat Lunak,82
+2205006,Fajar,PTI,2022,4,Kecerdasan Buatan,98
+2205007,Gita,PTI,2022,1,Algoritma,90
+2205007,Gita,PTI,2022,1,Pengantar TI,94
+2205007,Gita,PTI,2022,2,Basis Data,88
+2205007,Gita,PTI,2022,2,Struktur Data,86
+2205007,Gita,PTI,2022,3,Aplikasi Web,78
+2205007,Gita,PTI,2022,3,Jaringan Komputer,91
+2205007,Gita,PTI,2022,4,Rekayasa Perangkat Lunak,84
+2205007,Gita,PTI,2022,4,Kecerdasan Buatan,85
+2205008,Hadi,PTI,2022,1,Algoritma,65
+2205008,Hadi,PTI,2022,1,Pengantar TI,68
+2205008,Hadi,PTI,2022,2,Basis Data,83
+2205008,Hadi,PTI,2022,2,Struktur Data,59
+2205008,Hadi,PTI,2022,3,Aplikasi Web,65
+2205008,Hadi,PTI,2022,3,Jaringan Komputer,77
+2205008,Hadi,PTI,2022,4,Rekayasa Perangkat Lunak,87
+2205008,Hadi,PTI,2022,4,Kecerdasan Buatan,81
+2305009,Indah,PTI,2023,1,Algoritma,51
+2305009,Indah,PTI,2023,1,Pengantar TI,71
+2305009,Indah,PTI,2023,2,Basis Data,65
+2305009,Indah,PTI,2023,2,Struktur Data,62
+2305009,Indah,PTI,2023,3,Aplikasi Web,78
+2305009,Indah,PTI,2023,3,Jaringan Komputer,79
+2305009,Indah,PTI,2023,4,Rekayasa Perangkat Lunak,74
+2305009,Indah,PTI,2023,4,Kecerdasan Buatan,75
+2305010,Joko,PTI,2023,1,Algoritma,93
+2305010,Joko,PTI,2023,1,Pengantar TI,87
+2305010,Joko,PTI,2023,2,Basis Data,87
+2305010,Joko,PTI,2023,2,Struktur Data,88
+2305010,Joko,PTI,2023,3,Aplikasi Web,74
+2305010,Joko,PTI,2023,3,Jaringan Komputer,94
+2305010,Joko,PTI,2023,4,Rekayasa Perangkat Lunak,94
+2305010,Joko,PTI,2023,4,Kecerdasan Buatan,91
+2305011,Kartika,PTI,2023,1,Algoritma,63
+2305011,Kartika,PTI,2023,1,Pengantar TI,74
+2305011,Kartika,PTI,2023,2,Basis Data,57
+2305011,Kartika,PTI,2023,2,Struktur Data,68
+2305011,Kartika,PTI,2023,3,Aplikasi Web,78
+2305011,Kartika,PTI,2023,3,Jaringan Komputer,62
+2305011,Kartika,PTI,2023,4,Rekayasa Perangkat Lunak,84
+2305011,Kartika,PTI,2023,4,Kecerdasan Buatan,76
+2305012,Lukman,PTI,2023,1,Algoritma,81
+2305012,Lukman,PTI,2023,1,Pengantar TI,83
+2305012,Lukman,PTI,2023,2,Basis Data,81
+2305012,Lukman,PTI,2023,2,Struktur Data,88
+2305012,Lukman,PTI,2023,3,Aplikasi Web,77
+2305012,Lukman,PTI,2023,3,Jaringan Komputer,79
+2305012,Lukman,PTI,2023,4,Rekayasa Perangkat Lunak,91
+2305012,Lukman,PTI,2023,4,Kecerdasan Buatan,84
+2305013,Maya,PTI,2023,1,Algoritma,81
+2305013,Maya,PTI,2023,1,Pengantar TI,85
+2305013,Maya,PTI,2023,2,Basis Data,73
+2305013,Maya,PTI,2023,2,Struktur Data,66
+2305013,Maya,PTI,2023,3,Aplikasi Web,77
+2305013,Maya,PTI,2023,3,Jaringan Komputer,76
+2305013,Maya,PTI,2023,4,Rekayasa Perangkat Lunak,77
+2305013,Maya,PTI,2023,4,Kecerdasan Buatan,89
+2305014,Nanda,PTI,2023,1,Algoritma,82
+2305014,Nanda,PTI,2023,1,Pengantar TI,65
+2305014,Nanda,PTI,2023,2,Basis Data,70
+2305014,Nanda,PTI,2023,2,Struktur Data,79
+2305014,Nanda,PTI,2023,3,Aplikasi Web,85
+2305014,Nanda,PTI,2023,3,Jaringan Komputer,83
+2305014,Nanda,PTI,2023,4,Rekayasa Perangkat Lunak,81
+2305014,Nanda,PTI,2023,4,Kecerdasan Buatan,79
+2305015,Oki,PTI,2023,1,Algoritma,85
+2305015,Oki,PTI,2023,1,Pengantar TI,79
+2305015,Oki,PTI,2023,2,Basis Data,84
+2305015,Oki,PTI,2023,2,Struktur Data,86
+2305015,Oki,PTI,2023,3,Aplikasi Web,84
+2305015,Oki,PTI,2023,3,Jaringan Komputer,89
+2305015,Oki,PTI,2023,4,Rekayasa Perangkat Lunak,89
+2305015,Oki,PTI,2023,4,Kecerdasan Buatan,99
+2206001,Putri,TI,2022,1,Algoritma,76
+2206001,Putri,TI,2022,1,Pengantar TI,76
+2206001,Putri,TI,2022,2,Basis Data,80
+2206001,Putri,TI,2022,2,Struktur Data,87
+2206001,Putri,TI,2022,3,Aplikasi Web,79
+2206001,Putri,TI,2022,3,Jaringan Komputer,84
+2206001,Putri,TI,2022,4,Rekayasa Perangkat Lunak,96
+2206001,Putri,TI,2022,4,Kecerdasan Buatan,65
+2206002,Rizky,TI,2022,1,Algoritma,72
+2206002,Rizky,TI,2022,1,Pengantar TI,73
+2206002,Rizky,TI,2022,2,Basis Data,73
+2206002,Rizky,TI,2022,2,Struktur Data,68
+2206002,Rizky,TI,2022,3,Aplikasi Web,78
+2206002,Rizky,TI,2022,3,Jaringan Komputer,75
+2206002,Rizky,TI,2022,4,Rekayasa Perangkat Lunak,71
+2206002,Rizky,TI,2022,4,Kecerdasan Buatan,92
+2206003,Sari,TI,2022,1,Algoritma,75
+2206003,Sari,TI,2022,1,Pengantar TI,78
+2206003,Sari,TI,2022,2,Basis Data,79
+2206003,Sari,TI,2022,2,Struktur Data,80
+2206003,Sari,TI,2022,3,Aplikasi Web,63
+2206003,Sari,TI,2022,3,Jaringan Komputer,79
+2206003,Sari,TI,2022,4,Rekayasa Perangkat Lunak,91
+2206003,Sari,TI,2022,4,Kecerdasan Buatan,75
+2206004,Tono,TI,2022,1,Algoritma,83
+2206004,Tono,TI,2022,1,Pengantar TI,82
+2206004,Tono,TI,2022,2,Basis Data,88
+2206004,Tono,TI,2022,2,Struktur Data,66
+2206004,Tono,TI,2022,3,Aplikasi Web,77
+2206004,Tono,TI,2022,3,Jaringan Komputer,77
+2206004,Tono,TI,2022,4,Rekayasa Perangkat Lunak,85
+2206004,Tono,TI,2022,4,Kecerdasan Buatan,89
+2206005,Umi,TI,2022,1,Algoritma,68
+2206005,Umi,TI,2022,1,Pengantar TI,50
+2206005,Umi,TI,2022,2,Basis Data,67
+2206005,Umi,TI,2022,2,Struktur Data,52
+2206005,Umi,TI,2022,3,Aplikasi Web,65
+2206005,Umi,TI,2022,3,Jaringan Komputer,72
+2206005,Umi,TI,2022,4,Rekayasa Perangkat Lunak,64
+2206005,Umi,TI,2022,4,Kecerdasan Buatan,67
+2206006,Vina,TI,2022,1,Algoritma,82
+2206006,Vina,TI,2022,1,Pengantar TI,81
+2206006,Vina,TI,2022,2,Basis Data,94
+2206006,Vina,TI,2022,2,Struktur Data,90
+2206006,Vina,TI,2022,3,Aplikasi Web,83
+2206006,Vina,TI,2022,3,Jaringan Komputer,100
+2206006,Vina,TI,2022,4,Rekayasa Perangkat Lunak,78
+2206006,Vina,TI,2022,4,Kecerdasan Buatan,93
+2206007,Wahyu,TI,2022,1,Algoritma,76
+2206007,Wahyu,TI,2022,1,Pengantar TI,80
+2206007,Wahyu,TI,2022,2,Basis Data,78
+2206007,Wahyu,TI,2022,2,Struktur Data,81
+2206007,Wahyu,TI,2022,3,Aplikasi Web,68
+2206007,Wahyu,TI,2022,3,Jaringan Komputer,68
+2206007,Wahyu,TI,2022,4,Rekayasa Perangkat Lunak,84
+2206007,Wahyu,TI,2022,4,Kecerdasan Buatan,73
+2206008,Yoga,TI,2022,1,Algoritma,60
+2206008,Yoga,TI,2022,1,Pengantar TI,79
+2206008,Yoga,TI,2022,2,Basis Data,77
+2206008,Yoga,TI,2022,2,Struktur Data,82
+2206008,Yoga,TI,2022,3,Aplikasi Web,67
+2206008,Yoga,TI,2022,3,Jaringan Komputer,74
+2206008,Yoga,TI,2022,4,Rekayasa Perangkat Lunak,67
+2206008,Yoga,TI,2022,4,Kecerdasan Buatan,81
+2306009,Zahra,TI,2023,1,Algoritma,80
+2306009,Zahra,TI,2023,1,Pengantar TI,97
+2306009,Zahra,TI,2023,2,Basis Data,95
+2306009,Zahra,TI,2023,2,Struktur Data,86
+2306009,Zahra,TI,2023,3,Aplikasi Web,76
+2306009,Zahra,TI,2023,3,Jaringan Komputer,99
+2306009,Zahra,TI,2023,4,Rekayasa Perangkat Lunak,90
+2306009,Zahra,TI,2023,4,Kecerdasan Buatan,87
+2306010,Arif,TI,2023,1,Algoritma,82
+2306010,Arif,TI,2023,1,Pengantar TI,89
+2306010,Arif,TI,2023,2,Basis Data,73
+2306010,Arif,TI,2023,2,Struktur Data,89
+2306010,Arif,TI,2023,3,Aplikasi Web,93
+2306010,Arif,TI,2023,3,Jaringan Komputer,92
+2306010,Arif,TI,2023,4,Rekayasa Perangkat Lunak,83
+2306010,Arif,TI,2023,4,Kecerdasan Buatan,79
+2306011,Bayu,TI,2023,1,Algoritma,84
+2306011,Bayu,TI,2023,1,Pengantar TI,84
+2306011,Bayu,TI,2023,2,Basis Data,94
+2306011,Bayu,TI,2023,2,Struktur Data,82
+2306011,Bayu,TI,2023,3,Aplikasi Web,70
+2306011,Bayu,TI,2023,3,Jaringan Komputer,83
+2306011,Bayu,TI,2023,4,Rekayasa Perangkat Lunak,75
+2306011,Bayu,TI,2023,4,Kecerdasan Buatan,93
+2306012,Dina,TI,2023,1,Algoritma,74
+2306012,Dina,TI,2023,1,Pengantar TI,78
+2306012,Dina,TI,2023,2,Basis Data,86
+2306012,Dina,TI,2023,2,Struktur Data,81
+2306012,Dina,TI,2023,3,Aplikasi Web,91
+2306012,Dina,TI,2023,3,Jaringan Komputer,81
+2306012,Dina,TI,2023,4,Rekayasa Perangkat Lunak,91
+2306012,Dina,TI,2023,4,Kecerdasan Buatan,94
+2306013,Fitri,TI,2023,1,Algoritma,82
+2306013,Fitri,TI,2023,1,Pengantar TI,92
+2306013,Fitri,TI,2023,2,Basis Data,75
+2306013,Fitri,TI,2023,2,Struktur Data,80
+2306013,Fitri,TI,2023,3,Aplikasi Web,76
+2306013,Fitri,TI,2023,3,Jaringan Komputer,97
+2306013,Fitri,TI,2023,4,Rekayasa Perangkat Lunak,82
+2306013,Fitri,TI,2023,4,Kecerdasan Buatan,91
+2306014,Gilang,TI,2023,1,Algoritma,75
+2306014,Gilang,TI,2023,1,Pengantar TI,71
+2306014,Gilang,TI,2023,2,Basis Data,79
+2306014,Gilang,TI,2023,2,Struktur Data,90
+2306014,Gilang,TI,2023,3,Aplikasi Web,79
+2306014,Gilang,TI,2023,3,Jaringan Komputer,82
+2306014,Gilang,TI,2023,4,Rekayasa Perangkat Lunak,87
+2306014,Gilang,TI,2023,4,Kecerdasan Buatan,79
+2306015,Hana,TI,2023,1,Algoritma,65
+2306015,Hana,TI,2023,1,Pengantar TI,77
+2306015,Hana,TI,2023,2,Basis Data,59
+2306015,Hana,TI,2023,2,Struktur Data,66
+2306015,Hana,TI,2023,3,Aplikasi Web,79
+2306015,Hana,TI,2023,3,Jaringan Komputer,78
+2306015,Hana,TI,2023,4,Rekayasa Perangkat Lunak,74
+2306015,Hana,TI,2023,4,Kecerdasan Buatan,79
+2207001,Ilham,SI,2022,1,Algoritma,67
+2207001,Ilham,SI,2022,1,Pengantar TI,65
+2207001,Ilham,SI,2022,2,Basis Data,73
+2207001,Ilham,SI,2022,2,Struktur Data,84
+2207001,Ilham,SI,2022,3,Aplikasi Web,75
+2207001,Ilham,SI,2022,3,Jaringan Komputer,72
+2207001,Ilham,SI,2022,4,Rekayasa Perangkat Lunak,75
+2207001,Ilham,SI,2022,4,Kecerdasan Buatan,70
+2207002,Nia,SI,2022,1,Algoritma,66
+2207002,Nia,SI,2022,1,Pengantar TI,76
+2207002,Nia,SI,2022,2,Basis Data,59
+2207002,Nia,SI,2022,2,Struktur Data,78
+2207002,Nia,SI,2022,3,Aplikasi Web,73
+2207002,Nia,SI,2022,3,Jaringan Komputer,64
+2207002,Nia,SI,2022,4,Rekayasa Perangkat Lunak,84
+2207002,Nia,SI,2022,4,Kecerdasan Buatan,77
+2207003,Rani,SI,2022,1,Algoritma,55
+2207003,Rani,SI,2022,1,Pengantar TI,63
+2207003,Rani,SI,2022,2,Basis Data,60
+2207003,Rani,SI,2022,2,Struktur Data,68
+2207003,Rani,SI,2022,3,Aplikasi Web,70
+2207003,Rani,SI,2022,3,Jaringan Komputer,69
+2207003,Rani,SI,2022,4,Rekayasa Perangkat Lunak,68
+2207003,Rani,SI,2022,4,Kecerdasan Buatan,75
+2207004,Satria,SI,2022,1,Algoritma,82
+2207004,Satria,SI,2022,1,Pengantar TI,64
+2207004,Satria,SI,2022,2,Basis Data,86
+2207004,Satria,SI,2022,2,Struktur Data,89
+2207004,Satria,SI,2022,3,Aplikasi Web,80
+2207004,Satria,SI,2022,3,Jaringan Komputer,78
+2207004,Satria,SI,2022,4,Rekayasa Perangkat Lunak,97
+2207004,Satria,SI,2022,4,Kecerdasan Buatan,71
+2207005,Tika,SI,2022,1,Algoritma,94
+2207005,Tika,SI,2022,1,Pengantar TI,71
+2207005,Tika,SI,2022,2,Basis Data,84
+2207005,Tika,SI,2022,2,Struktur Data,92
+2207005,Tika,SI,2022,3,Aplikasi Web,80
+2207005,Tika,SI,2022,3,Jaringan Komputer,85
+2207005,Tika,SI,2022,4,Rekayasa Perangkat Lunak,89
+2207005,Tika,SI,2022,4,Kecerdasan Buatan,76
+2207006,Wulan,SI,2022,1,Algoritma,76
+2207006,Wulan,SI,2022,1,Pengantar TI,80
+2207006,Wulan,SI,2022,2,Basis Data,75
+2207006,Wulan,SI,2022,2,Struktur Data,74
+2207006,Wulan,SI,2022,3,Aplikasi Web,70
+2207006,Wulan,SI,2022,3,Jaringan Komputer,75
+2207006,Wulan,SI,2022,4,Rekayasa Perangkat Lunak,85
+2207006,Wulan,SI,2022,4,Kecerdasan Buatan,80
+2207007,Yusuf,SI,2022,1,Algoritma,64
+2207007,Yusuf,SI,2022,1,Pengantar TI,88
+2207007,Yusuf,SI,2022,2,Basis Data,79
+2207007,Yusuf,SI,2022,2,Struktur Data,76
+2207007,Yusuf,SI,2022,3,Aplikasi Web,55
+2207007,Yusuf,SI,2022,3,Jaringan Komputer,77
+2207007,Yusuf,SI,2022,4,Rekayasa Perangkat Lunak,78
+2207007,Yusuf,SI,2022,4,Kecerdasan Buatan,86
+2207008,Rina,SI,2022,1,Algoritma,77
+2207008,Rina,SI,2022,1,Pengantar TI,81
+2207008,Rina,SI,2022,2,Basis Data,65
+2207008,Rina,SI,2022,2,Struktur Data,86
+2207008,Rina,SI,2022,3,Aplikasi Web,83
+2207008,Rina,SI,2022,3,Jaringan Komputer,75
+2207008,Rina,SI,2022,4,Rekayasa Perangkat Lunak,91
+2207008,Rina,SI,2022,4,Kecerdasan Buatan,95
+2307009,Dimas,SI,2023,1,Algoritma,62
+2307009,Dimas,SI,2023,1,Pengantar TI,68
+2307009,Dimas,SI,2023,2,Basis Data,69
+2307009,Dimas,SI,2023,2,Struktur Data,65
+2307009,Dimas,SI,2023,3,Aplikasi Web,63
+2307009,Dimas,SI,2023,3,Jaringan Komputer,84
+2307009,Dimas,SI,2023,4,Rekayasa Perangkat Lunak,78
+2307009,Dimas,SI,2023,4,Kecerdasan Buatan,63
+2307010,Laras,SI,2023,1,Algoritma,78
+2307010,Laras,SI,2023,1,Pengantar TI,73
+2307010,Laras,SI,2023,2,Basis Data,81
+2307010,Laras,SI,2023,2,Struktur Data,74
+2307010,Laras,SI,2023,3,Aplikasi Web,64
+2307010,Laras,SI,2023,3,Jaringan Komputer,72
+2307010,Laras,SI,2023,4,Rekayasa Perangkat Lunak,56
+2307010,Laras,SI,2023,4,Kecerdasan Buatan,66
+2307011,Agus,SI,2023,1,Algoritma,78
+2307011,Agus,SI,2023,1,Pengantar TI,69
+2307011,Agus,SI,2023,2,Basis Data,75
+2307011,Agus,SI,2023,2,Struktur Data,79
+2307011,Agus,SI,2023,3,Aplikasi Web,80
+2307011,Agus,SI,2023,3,Jaringan Komputer,82
+2307011,Agus,SI,2023,4,Rekayasa Perangkat Lunak,81
+2307011,Agus,SI,2023,4,Kecerdasan Buatan,77
+2307012,Bella,SI,2023,1,Algoritma,80
+2307012,Bella,SI,2023,1,Pengantar TI,74
+2307012,Bella,SI,2023,2,Basis Data,77
+2307012,Bella,SI,2023,2,Struktur Data,81
+2307012,Bella,SI,2023,3,Aplikasi Web,82
+2307012,Bella,SI,2023,3,Jaringan Komputer,84
+2307012,Bella,SI,2023,4,Rekayasa Perangkat Lunak,84
+2307012,Bella,SI,2023,4,Kecerdasan Buatan,85
+2307013,Candra,SI,2023,1,Algoritma,65
+2307013,Candra,SI,2023,1,Pengantar TI,77
+2307013,Candra,SI,2023,2,Basis Data,83
+2307013,Candra,SI,2023,2,Struktur Data,78
+2307013,Candra,SI,2023,3,Aplikasi Web,76
+2307013,Candra,SI,2023,3,Jaringan Komputer,80
+2307013,Candra,SI,2023,4,Rekayasa Perangkat Lunak,72
+2307013,Candra,SI,2023,4,Kecerdasan Buatan,65
+2307014,Dian,SI,2023,1,Algoritma,68
+2307014,Dian,SI,2023,1,Pengantar TI,80
+2307014,Dian,SI,2023,2,Basis Data,69
+2307014,Dian,SI,2023,2,Struktur Data,58
+2307014,Dian,SI,2023,3,Aplikasi Web,71
+2307014,Dian,SI,2023,3,Jaringan Komputer,89
+2307014,Dian,SI,2023,4,Rekayasa Perangkat Lunak,77
+2307014,Dian,SI,2023,4,Kecerdasan Buatan,70
+2307015,Evi,SI,2023,1,Algoritma,74
+2307015,Evi,SI,2023,1,Pengantar TI,73
+2307015,Evi,SI,2023,2,Basis Data,73
+2307015,Evi,SI,2023,2,Struktur Data,82
+2307015,Evi,SI,2023,3,Aplikasi Web,78
+2307015,Evi,SI,2023,3,Jaringan Komputer,73
+2307015,Evi,SI,2023,4,Rekayasa Perangkat Lunak,79
+2307015,Evi,SI,2023,4,Kecerdasan Buatan,86

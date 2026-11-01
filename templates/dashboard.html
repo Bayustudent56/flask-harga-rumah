@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Harga Rumah D.I. Yogyakarta</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f3f6f6; color: #1c2128; }
+    header { background: #0e3b3d; color: #fff; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    h1 { font-size: 20px; margin: 0; }
+    select { padding: 6px 12px; border-radius: 6px; border: none; font-size: 14px; margin-left: 6px; }
+    main { padding: 24px; display: grid; gap: 16px; grid-template-columns: 1fr 1fr; max-width: 1200px; margin: 0 auto; }
+    @media (max-width: 700px) { main { grid-template-columns: 1fr; } .stat { flex-direction: column; } }
+    .kartu { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    .stat { display: flex; gap: 16px; grid-column: 1 / -1; }
+    .stat .kartu { flex: 1; }
+    .angka { font-size: 28px; font-weight: bold; color: #0f8f7e; margin-bottom: 4px; }
+    .label-stat { font-size: 13px; color: #57606a; }
+    .lebar { grid-column: 1 / -1; }
+    h2 { font-size: 15px; margin: 0 0 12px; color: #0e3b3d; }
+    .grafik { position: relative; height: 260px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Harga Rumah D.I. Yogyakarta</h1>
+    <label>Wilayah (Kabupaten/Kota):
+      <select id="kabupaten">
+        <option value="">Semua Wilayah</option>
+        {% for k in daftar_kabupaten %}
+        <option value="{{ k }}">{{ k }}</option>
+        {% endfor %}
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="stat">
+      <div class="kartu">
+        <div class="angka" id="unit">-</div>
+        <div class="label-stat">Total Unit Properti</div>
+      </div>
+      <div class="kartu">
+        <div class="angka" id="rataHarga">-</div>
+        <div class="label-stat">Rata-rata Harga (Juta Rp)</div>
+      </div>
+      <div class="kartu">
+        <div class="angka" id="medianLuas">-</div>
+        <div class="label-stat">Median Luas Bangunan</div>
+      </div>
+      <div class="kartu">
+        <div class="angka" id="terjangkau">-</div>
+        <div class="label-stat">Rumah &le; Rp 1 Miliar</div>
+      </div>
+    </section>
+
+    <section class="kartu">
+      <h2 id="judulLokasi">Rata-rata harga per wilayah (Juta Rp)</h2>
+      <div class="grafik"><canvas id="grafikLokasi"></canvas></div>
+    </section>
+
+    <section class="kartu">
+      <h2>Distribusi kategori harga rumah</h2>
+      <div class="grafik"><canvas id="grafikHarga"></canvas></div>
+    </section>
+
+    <section class="kartu lebar">
+      <h2>Tren rata-rata harga berdasarkan jumlah kamar tidur (Juta Rp)</h2>
+      <div class="grafik"><canvas id="grafikKamar"></canvas></div>
+    </section>
+  </main>
+
+  <script>
+    Chart.defaults.maintainAspectRatio = false;
+    const grafik = {};
+
+    function gambar(id, config) {
+      if (grafik[id]) grafik[id].destroy();
+      grafik[id] = new Chart(document.getElementById(id), config);
+    }
+
+    function formatAngka(n) {
+      return Number(n).toLocaleString("id-ID");
+    }
+
+    async function muatData() {
+      const kab = document.getElementById("kabupaten").value;
+      const q = kab ? "?kabupaten=" + encodeURIComponent(kab) : "";
+
+      // 1. Kartu Ringkasan Statistik
+      const ringkasan = await (await fetch("/api/ringkasan" + q)).json();
+      document.getElementById("unit").textContent = formatAngka(ringkasan.total_unit);
+      document.getElementById("rataHarga").textContent = "Rp " + formatAngka(ringkasan.rata_harga) + " Jt";
+      document.getElementById("medianLuas").textContent = ringkasan.median_luas + " m²";
+      document.getElementById("terjangkau").textContent = ringkasan.persen_terjangkau + "%";
+
+      // 2. Bar Chart: Rata-rata Harga per Kabupaten atau Top 10 Kecamatan
+      const lokasi = await (await fetch("/api/rata-lokasi" + q)).json();
+      document.getElementById("judulLokasi").textContent = lokasi.judul;
+      gambar("grafikLokasi", {
+        type: "bar",
+        data: {
+          labels: lokasi.labels,
+          datasets: [{
+            label: "Rata-rata Harga (Juta Rp)",
+            data: lokasi.data,
+            backgroundColor: "#0f8f7e",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } }
+        }
+      });
+
+      // 3. Doughnut Chart: Distribusi Kelas Harga
+      const distHarga = await (await fetch("/api/distribusi-harga" + q)).json();
+      gambar("grafikHarga", {
+        type: "doughnut",
+        data: {
+          labels: distHarga.labels,
+          datasets: [{
+            data: distHarga.data,
+            backgroundColor: ["#0f8f7e", "#5bc0a8", "#f2a93b", "#e4572e", "#6b7b88"]
+          }]
+        }
+      });
+
+      // 4. Line Chart: Tren Harga per Jumlah Kamar Tidur
+      const kamar = await (await fetch("/api/tren-kamar" + q)).json();
+      const warnaGaris = ["#0f8f7e", "#e4572e", "#f2a93b", "#6b7b88"];
+      const datasetsKamar = kamar.datasets.map((ds, idx) => ({
+        ...ds,
+        borderColor: warnaGaris[idx % warnaGaris.length],
+        backgroundColor: warnaGaris[idx % warnaGaris.length],
+        tension: 0.25
+      }));
+
+      gambar("grafikKamar", {
+        type: "line",
+        data: { labels: kamar.labels, datasets: datasetsKamar }
+      });
+    }
+
+    document.getElementById("kabupaten").addEventListener("change", muatData);
+    muatData();
+  </script>
+</body>
+</html>
